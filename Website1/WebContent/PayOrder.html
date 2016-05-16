@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Order Form</title>
+</head>
+ 	<style>
+body {
+background-image: url("bg.png");
+}
+	</style> 
+
+  <body>
+<img src = "dtw.jpg" alt = "banner" style = "width: 1330px; height: 343px;">
+<font color="yellow"> 
+<h1 align = "center">DIMSUM TREATS ORDER FORM</h1>
+<form action ="createcv">
+<h2>Contact Details:</h2>
+<p>
+	Name: <input type ="text"  name="name" ><br><br>
+	Home Address: <input type ="text"  name="address" ><br><br>
+	Contact Number:<input type ="text"  name="contact" ><br><br>
+</p>
+
+<h2>Credit/Debit Card Details</h2>
+<p>
+	Card Number: <input type = "text"  name="name"><br><br>
+	Valid Thru: <input type = "date" name="validt"><br><br>
+	CVC/CW/CID: <input type = "text"  name="cvc"><br><br>
+	Bank Name: <input type = "text" name="bname"><br><br>
+</p>
+
+<h2>Mode of Payment</h2>
+<p>
+  <input type="radio" name="payment" value="cash"> Cash<br>
+  <input type="radio" name="payment" value="card"> Credit/Debit Card<br>
+</p>
+
+<h2>Choose from the ff:</h2>
+<p>
+	<input type="radio" name="transpo" value="pickup"> Pick up<br>
+	<input type="radio" name="transpo" value="delivery"> Delivery<br>
+</p>
+</font>
+<input type="submit" value="Cancel">
+<input type="submit" value="Confirm">
+</form>
+	</body>
+</html>
